@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Looking for a job",
+      "date": "24-07-2023",
+      "content": "As of 24th July, I am officially #opentowork. I have enjoyed three weeks of my summer vacation, reunited with all my Polish friends and family, and now I'm more motivated than ever to do some work and further enhance my software engineering skills. Starting September, I will be doing a part-time minor in business administration at Leiden University, which means I will have plenty of free time, so I decided to look for a job, ideally start before the start of the academic year. To any potential recruiters, this website contains my portfolio and contact details, so feel free to reach out!"
+    },
+    {
+      "id": 1,
+      "title": "Launch of the website",
+      "date": "17-07-2023",
+      "content": "Hello to everyone reading this! 17th July 2023 marks the launch date of my personal website. This website has been created for me to be able to express myself by posting life updates in the blog section, but it also acts as my portfolio (check out projects page!). It has been created using React with Vite and Typescript, as well as UI technologies such as Tailwind CSS and DaisyUI, and it is deployed using AWS Amplify. It was a great opportunity for me to practice using these software tools. I might improve it in the future (if I find time 😅). If you have any suggestions or want to contact me, my email is on the about page."
+    }
+  ]
+}
