@@ -3,10 +3,10 @@ import {Post} from './Blog'
 
 export default function BlogPost({ post }: { post: Post }) {
   return (
-    <div className='flex flex-col items-start border-b-2 pb-8 mb-2'>
+    <div className='flex flex-col items-start border-b-2 pb-8 mb-2 border-x-2 px-10' >
         <div className="collapse bg-base-100 ">
           <input type="checkbox" />
-          <div className="collapse-title text-xl font-medium underline underline-offset-3">
+          <div className="collapse-title text-xl md:text-2xl font-medium underline underline-offset-3">
             {post.title}
           </div>
           <div className="collapse-content">

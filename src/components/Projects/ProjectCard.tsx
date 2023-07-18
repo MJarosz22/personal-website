@@ -2,11 +2,11 @@ import { Project } from "./ProjectsPanel";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className=" max-w-sm bg-base-100 shadow-xl">
       <figure>
         <img src={project.img_source} className=" w-full" alt="Project image" />
       </figure>
-      <div className="card-body">
+      <div className="card-body md:min-h-64">
         <div className="collapse bg-base-100 ">
           <input type="checkbox" />
           <div className="collapse-title text-xl font-medium underline">
@@ -23,9 +23,11 @@ export default function ProjectCard({ project }: { project: Project }) {
               App
             </a>
           ) : null}
-          <a href={project.source_code_url} className="badge badge-outline">
-            Source code
-          </a>
+          {project.source_code_url != null ? (
+            <a href={project.source_code_url} className="badge badge-outline">
+              Source code
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

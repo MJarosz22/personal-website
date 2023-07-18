@@ -5,7 +5,7 @@ import NavigationBar from '../components/NavigationBar';
 
 export default function Home() {
     return (
-        <div className="Home grid grid-cols-1 items-center justify-center h-auto w-screen">
+        <div className="Home flex flex-col items-center justify-center w-full">
           <NavigationBar/>
           <TitlePanel/>
           <Blog/>
