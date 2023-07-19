@@ -6,7 +6,7 @@
             "date": "July 2023",
             "description": "The project is a website that acts as my blog and portfolio. It is a static website implemented using React with TypeScript and Vite, and uses Tailwind CSS and DaisyUI for the UI elements. I tried to follow all the best coding practices, but my goal was to achieve the MVP as fast as possible so I partially sacrificed the testing, documentation and accesibility (aria) parts, which are normally very important. I will work on that more in the future, as the website grows. The source code and more detailed description can be found under the source code button below.",
             "url": "https://mjarosz.tech",
-            "img_source": "src\\assets\\images\\website.png",
+            "img_source": "public\\images\\website.png",
             "source_code_url": "https://github.com/MJarosz22/personal-website",
             "contributors": ["Marcin Jarosz"]
         },
@@ -16,7 +16,7 @@
             "date": "June 2023",
             "description": "The project was done as part of a 10 week internship at UpsideFi, a financial technology startup. It is a prototype of an AI chatbot, which can answer questions regarding college and major filtering (in the US) and questions specific to individual institutions (like e.g. application deadlines). It is implemented using Python and fixie.ai framework, and deployed on the official fixie website (click the button below to try it). I worked together with my colleague, Irene, on all aspects of the chat agent. Unfortunetly, the source code cannot be shared as it is now property of the company.",
             "url": "https://app.fixie.ai/agents/j.irene.kang/master",
-            "img_source": "src\\assets\\images\\chatbot.png",
+            "img_source": "public\\images\\chatbot.png",
             "contributors": ["Marcin Jarosz", "Jeeyoon(Irene) Kang"]
         },
         {
@@ -25,7 +25,7 @@
             "date": "May-June 2023",
             "description": "The project was done as part of a 10 week internship at UpsideFi, a financial technology startup. It is a web application allowing users to filter and compare colleges across the United States. It utilizes the publicly available College Scorecard dataset. It is writtern in TypeScript and uses frameworks: React for the frontend and NestJS for the backend. My responsibilities included: initial backend setup, database setup and data pipeline implementation, filtering- backend (NestJS with typeORM and SQL), user favorites - full stack (authentication with firebase, react frontend), testing (unit and e2e), documentation, deployment. The application is deployed using AWS Amplify- you can click the button below to try it. Unfortunetly, the source code cannot be shared as it is now property of the company.",
             "url": "https://www.collegeinfo.drivefi.co/",
-            "img_source": "src\\assets\\images\\college-comparison.png",
+            "img_source": "public\\images\\college-comparison.png",
             "contributors": ["Marcin Jarosz", "Tommy Hu", "Jeeyoon(Irene) Kang", "Yi Wu", "Nicolas Zink"]
         },
         {
@@ -33,7 +33,7 @@
             "title": "Quizzz- energy awareness multiplayer game",
             "date": "February-April 2022",
             "description": "The project was done as part of CSE1105 Object Oriented Programming Project course at TU Delft. It is an online quiz-like multiplayer game, revolving around energy awareness. It is implemented using Java with Spring Boot and JFX. The questions are automatically generated using the activities saved in an h2 database. The connection between players is estabilished using websockets. The visual aspect of the game could be improved, but it was not the focus of our project. I contributed to all aspects of the project, in particular the singleplayer game mode, the time limits for each question and power-ups. More detailed description can be found in the github repository linked below.",
-            "img_source": "src\\assets\\images\\quizzz.png",
+            "img_source": "public\\images\\quizzz.png",
             "source_code_url": "https://github.com/MJarosz22/Quizzz",
             "contributors": ["Marcin Jarosz", "Vlad Nitu", "Rafael Petouris", "Petra Postelnicu", "Sophie van der Linden", "Joshua Gort"]
         },
@@ -42,7 +42,7 @@
             "title": "Ultimate DelftMind- 2 player online board game",
             "date": "December 2021",
             "description": "The project was done as part of CSE1500 Web and Database Technology course at TU Delft. It is a 2 player online board game, mastermind implemented in vanilla JavaScript (ES5) with Express.js, HTML and CSS. Me and my colleague, Tommy, worked both on all aspects of the game.",
-            "img_source": "src\\assets\\images\\mastermind.png",
+            "img_source": "public\\images\\mastermind.png",
             "source_code_url": "https://github.com/MJarosz22/ULTIMATEMASTERMIND",
             "contributors": ["Marcin Jarosz", "Tommy Hu"]
         }

@@ -16,7 +16,7 @@ export default function NavigationBar() {
     return (
         <>
             <button onClick={() => navigate('/')}>
-                <img src="src/assets/images/logo.png" className="absolute top-11 left-8 w-24 h-auto" />
+                <img src="public\images\logo.png" className="absolute top-11 left-8 w-24 h-auto" />
             </button>
             <button className="btn btn-square btn-ghost absolute top-10 right-10 text-white" onClick={openModal}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className=" w-15 h-15 stroke-current">
