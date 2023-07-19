@@ -1,6 +1,4 @@
-import Navigation from '../Navigation';
 import Icons from './Icons';
-import { useState } from 'react';
 
 export default function TitlePanel () {
     return (

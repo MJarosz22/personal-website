@@ -8,8 +8,8 @@ export interface Project {
   description: string;
   url?: string;
   img_source: string;
-  source_code_url: string;
-  contributors: [string];
+  source_code_url?: string;
+  contributors: string[];
 }
 
 export default function ProjectsPanel() {
@@ -22,8 +22,8 @@ export default function ProjectsPanel() {
         <p className="text-xl">Click on project's title to see the description.</p>
       </div>
       <div className="flex flex-wrap items-start  justify-center gap-10 my-10 px-5 w-full">
-        {projects.projects.map((project) => {
-          return <ProjectCard key={project.id} project={project} />;
+        {projects.projects.map((proj) => {
+          return <ProjectCard key={proj.id} project={proj} />;
         })}
       </div>
     </>

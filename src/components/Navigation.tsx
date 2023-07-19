@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Navigation ({onClose}) {
+type onCloseFunctionType = () => void;
+
+const Navigation: React.FC<{ onClose: onCloseFunctionType }> = ({ onClose }) => {
     useEffect(() => {
         // Disable scrolling on mount
         document.body.style.overflow = 'hidden';
@@ -23,3 +25,5 @@ export default function Navigation ({onClose}) {
             </div>
     )
 }
+
+export default Navigation;

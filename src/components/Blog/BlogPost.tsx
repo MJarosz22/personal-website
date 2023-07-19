@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import {Post} from './Blog'
 
 export default function BlogPost({ post }: { post: Post }) {
