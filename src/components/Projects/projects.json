@@ -42,7 +42,7 @@
             "title": "Ultimate DelftMind- 2 player online board game",
             "date": "December 2021",
             "description": "The project was done as part of CSE1500 Web and Database Technology course at TU Delft. It is a 2 player online board game, mastermind implemented in vanilla JavaScript (ES5) with Express.js, HTML and CSS. Me and my colleague, Tommy, worked both on all aspects of the game.",
-            "img_source": "public\\images\\mastermind.png",
+            "img_source": "images\\mastermind.png",
             "source_code_url": "https://github.com/MJarosz22/ULTIMATEMASTERMIND",
             "contributors": ["Marcin Jarosz", "Tommy Hu"]
         }
