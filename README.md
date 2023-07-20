@@ -1,4 +1,4 @@
-# ULTIMATEMASTERMIND
+# Personal website
 This project is a personal website of Marcin Jarosz.
 
 ### Prerequisites
